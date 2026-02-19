@@ -77,7 +77,7 @@ public class CalculadoraAritmeticaTest {
 	@Test
 	@DisplayName("Teste de divisão entre 15 e 3")
 	public void testeDividir15Com3() {
-		resultadoEsperado = 3;
+		resultadoEsperado = 5;
 		CalculadoraAritmetica calc = new CalculadoraAritmetica();
 		resultadoReal = calc.dividir(15, 3);
 		
@@ -94,3 +94,4 @@ public class CalculadoraAritmeticaTest {
 		assertEquals(resultadoEsperado, resultadoReal);
 	}
 }
+
